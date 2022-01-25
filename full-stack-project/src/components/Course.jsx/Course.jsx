@@ -1,13 +1,17 @@
 import React from "react";
 import "./Course.scss";
 
-const Course = () => {
-
+const Course = (props) => {
+  const { name, location, price, duration, summary } = props.course;
 
   return (
-    <>
-      <p> Each course will be mapped here</p>
-    </>
-  )
-}
-export default Course
+    <div className="course">
+      <h3>Course: {name} </h3>
+      <h4>location: {location}</h4>
+      <h5>Price: {price}</h5>
+      <p>Duration: {duration}</p>
+      <p>Summary: {summary}</p>
+    </div>
+  );
+};
+export default Course;

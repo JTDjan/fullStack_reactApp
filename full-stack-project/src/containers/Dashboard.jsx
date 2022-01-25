@@ -28,9 +28,9 @@ const Dashboard = () => {
   
     <Nav />
     <Routes>
-    <Route path ="/" element={<CourseList />} /> 
+    <Route path ="/" element={<CourseList course = {course}/>} /> 
 
-    <Route path ="/courses" element={<CourseList />} /> 
+    <Route path ="/courses" element={<CourseList  course = {course}/>} /> 
 
     <Route path ="/add-course" element={<Form />} /> 
     
