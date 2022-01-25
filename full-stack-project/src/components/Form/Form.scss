@@ -1,0 +1,9 @@
+.form {
+  .formContainer{
+    display: flex;
+    flex-direction: column;
+    .inputField {
+      display: block;
+    }
+  }
+}

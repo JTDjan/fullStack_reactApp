@@ -1,10 +1,11 @@
-import './App.scss';
+import "./App.scss";
+import Dashboard from "./containers/Dashboard";
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello World</h1>
-    </div>
+    <>
+      <Dashboard />
+    </>
   );
 }
 
