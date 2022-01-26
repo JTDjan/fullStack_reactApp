@@ -10,7 +10,7 @@ const Form = () => {
     summary: "",
   });
 
-  // by default fetch is GET
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     fetch("http://localhost:8080/course", {

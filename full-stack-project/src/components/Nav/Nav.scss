@@ -1,3 +1,29 @@
-nav{
+.nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(58, 58, 197);
 
+  p {
+    margin-left: 10px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    gap: 10px;
+
+    .nav-items {
+      text-decoration: none;
+      color: black;
+    }
+    
+    .nav-items:hover{
+      cursor: pointer;
+      color: white;
+
+    }
+  }
 }

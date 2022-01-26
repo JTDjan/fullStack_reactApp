@@ -9,7 +9,7 @@ const Course = (props) => {
       <h3>Course: {name} </h3>
       <h4>location: {location}</h4>
       <h5>Price: {price}</h5>
-      <p>Duration: {duration}</p>
+      <h6>Duration: {duration}</h6>
       <p>Summary: {summary}</p>
     </div>
   );
