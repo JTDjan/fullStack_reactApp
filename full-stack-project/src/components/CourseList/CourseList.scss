@@ -3,3 +3,14 @@
   padding: 25px;
   background-color: blueviolet;
 }
+
+// For desktops
+@media only screen and (min-width: 400px) {
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+}
