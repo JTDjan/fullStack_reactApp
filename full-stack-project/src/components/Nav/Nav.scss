@@ -18,12 +18,10 @@
     .nav-items {
       text-decoration: none;
       color: black;
-    }
-    
-    .nav-items:hover{
-      cursor: pointer;
-      color: white;
-
+      &:hover {
+        cursor: pointer;
+        color: white;
+      }
     }
   }
 }

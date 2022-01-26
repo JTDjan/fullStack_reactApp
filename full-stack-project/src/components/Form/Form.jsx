@@ -28,42 +28,47 @@ const Form = () => {
 
   return (
     <div className="form">
-      <div className="formContainer">
+      
         <h2>Add New Course</h2>
-        <form onSubmit={handleSubmit}>
+        <form className="formContainer" onSubmit={handleSubmit}>
           <input
             className="inputField"
             type="text"
             placeholder="Name Of Course"
+            required
             onInput={(e) => setCourse({ ...course, name: e.target.value })}
           ></input>
           <input
             className="inputField"
             type="text"
+            required
             placeholder="Location Of Course"
             onInput={(e) => setCourse({ ...course, location: e.target.value })}
           ></input>
           <input
             className="inputField"
             type="text"
+            required
             placeholder="Price"
             onInput={(e) => setCourse({ ...course, price: e.target.value })}
           ></input>
           <input
             className="inputField"
             type="text"
+            required
             placeholder="Duration"
             onInput={(e) => setCourse({ ...course, duration: e.target.value })}
           ></input>
           <input
             className="inputField"
             type="text"
+            required
             placeholder="summary"
             onInput={(e) => setCourse({ ...course, summary: e.target.value })}
           ></input>
            <button type="submit" className="btn">Submit</button>
         </form>
-      </div>
+      
     </div>
   );
 };

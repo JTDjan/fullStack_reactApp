@@ -1,9 +1,26 @@
 .form {
+  background-color: blueviolet;
+  text-align: center;
+  height: 100vh;
+
+  h2{
+    margin: auto;
+    padding-top: 20px;
+  }
+
   .formContainer{
     display: flex;
+    align-items: center;
     flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    
+    padding: 30px;
+    
+
     .inputField {
       display: block;
+      margin-left: 20px;
     }
   }
 }
